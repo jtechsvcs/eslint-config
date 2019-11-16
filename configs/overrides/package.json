@@ -1,0 +1,20 @@
+{
+  "name": "@jtechsvcs/eslint-overrides",
+  "version": "1.0.3",
+  "description": "Eslint override configs for JTechSvcs®",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://jtechsvcs@dev.azure.com/jtechsvcs/configs/_git/eslint-config"
+  },
+  "author": "Jeremy Albright",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "package.json",
+    "index.js",
+    "config/*"
+  ]
+}

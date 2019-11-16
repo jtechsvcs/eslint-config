@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": [
+    "./configs/standard"
+  ],
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-prototype-builtins": "off"
+  }
+}

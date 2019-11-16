@@ -1,0 +1,26 @@
+{
+  "name": "@jtechsvcs/eslint-config-standard",
+  "version": "1.0.4",
+  "description": "Standard eslint configs for JTechSvcs®",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://jtechsvcs@dev.azure.com/jtechsvcs/configs/_git/eslint-config"
+  },
+  "author": "Jeremy Albright",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "package.json",
+    "index.js",
+    "config/*"
+  ],
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "dependencies": {
+    "@jtechsvcs/eslint-overrides": "*"
+  }
+}

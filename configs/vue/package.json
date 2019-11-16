@@ -1,0 +1,29 @@
+{
+  "name": "@jtechsvcs/eslint-config-vue",
+  "version": "1.0.3",
+  "description": "Vue eslint configs for JTechSvcs®",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://jtechsvcs@dev.azure.com/jtechsvcs/configs/_git/eslint-config"
+  },
+  "author": "Jeremy Albright",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "package.json",
+    "index.js",
+    "config/*"
+  ],
+  "peerDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-plugin-vue": "^5.2.3"
+  },
+  "dependencies": {
+    "@jtechsvcs/eslint-config-standard": "*",
+    "@jtechsvcs/eslint-merge-config": "*",
+    "@jtechsvcs/eslint-overrides": "*"
+  }
+}

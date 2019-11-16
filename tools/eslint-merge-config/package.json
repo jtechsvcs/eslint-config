@@ -1,0 +1,19 @@
+{
+  "name": "@jtechsvcs/eslint-merge-config",
+  "version": "1.0.1",
+  "description": "Eslint configuration merger utility",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://jtechsvcs@dev.azure.com/jtechsvcs/configs/_git/eslint-config"
+  },
+  "author": "Jeremy Albright",
+  "license": "ISC",
+  "files": [
+    "package.json",
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
