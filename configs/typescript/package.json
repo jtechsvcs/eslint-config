@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://jtechsvcs@dev.azure.com/jtechsvcs/configs/_git/eslint-config"
+    "url": "https://github.com/Js-Brecht/eslint-config"
   },
   "author": "Jeremy Albright",
   "license": "ISC",
