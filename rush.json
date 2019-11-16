@@ -366,12 +366,6 @@
       "packageName": "@jtechsvcs/eslint-merge-config",
       "projectFolder": "tools/eslint-merge-config",
       "shouldPublish": true
-    },
-    {
-      "packageName": "root-packages",
-      "projectFolder": "root",
-      "shouldPublish": false,
-      "skipRushCheck": true
     }
   ]
 }
