@@ -8,7 +8,7 @@
     "url": "https://github.com/Js-Brecht/eslint-config"
   },
   "author": "Jeremy Albright",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
@@ -25,9 +25,9 @@
     "eslint-plugin-vue": "^5.2.3"
   },
   "dependencies": {
-    "@jtechsvcs/eslint-config-typescript": "1.0.5",
-    "@jtechsvcs/eslint-config-vue": "1.0.4",
-    "@jtechsvcs/eslint-merge-config": "1.0.2",
-    "@jtechsvcs/eslint-overrides": "1.0.4"
+    "@jtechsvcs/eslint-config-typescript": "^1.0.5",
+    "@jtechsvcs/eslint-config-vue": "^1.0.4",
+    "@jtechsvcs/eslint-merge-config": "^1.0.2",
+    "@jtechsvcs/eslint-overrides": "^1.0.4"
   }
 }

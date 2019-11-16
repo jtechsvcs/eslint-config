@@ -8,7 +8,7 @@
     "url": "https://github.com/Js-Brecht/eslint-config"
   },
   "author": "Jeremy Albright",
-  "license": "ISC",
+  "license": "MIT",
   "files": [
     "package.json",
     "index.js"

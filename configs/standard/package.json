@@ -8,7 +8,7 @@
     "url": "https://github.com/Js-Brecht/eslint-config"
   },
   "author": "Jeremy Albright",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
@@ -21,6 +21,6 @@
     "eslint": "^6.0.0"
   },
   "dependencies": {
-    "@jtechsvcs/eslint-overrides": "1.0.4"
+    "@jtechsvcs/eslint-overrides": "^1.0.4"
   }
 }
