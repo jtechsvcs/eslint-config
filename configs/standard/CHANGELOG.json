@@ -1,0 +1,17 @@
+{
+  "name": "@jtechsvcs/eslint-config-standard",
+  "entries": [
+    {
+      "version": "1.0.5",
+      "tag": "@jtechsvcs/eslint-config-standard_v1.0.5",
+      "date": "Sat, 16 Nov 2019 05:46:34 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "indent changes + formatting"
+          }
+        ]
+      }
+    }
+  ]
+}
