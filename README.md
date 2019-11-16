@@ -37,7 +37,7 @@
 
     * Extends typescript and react configurations
     * peerDependencies:
-        1. Included from React & Typescript
+        1. Included from react & typescript
 
 5. vue
 
@@ -50,4 +50,4 @@
 
     * Extends typescript and vue configurations
     * peerDependencies:
-        1. Includes from vue & typescript
+        1. Included from vue & typescript
