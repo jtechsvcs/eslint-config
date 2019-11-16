@@ -1,0 +1,31 @@
+{
+  "name": "@jtechsvcs/eslint-config-vue-typescript",
+  "entries": [
+    {
+      "version": "1.0.5",
+      "tag": "@jtechsvcs/eslint-config-vue-typescript_v1.0.5",
+      "date": "Sat, 16 Nov 2019 05:58:48 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "git repository update -> github"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-config-typescript\" from `*` to `1.0.5`"
+          },
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-config-vue\" from `*` to `1.0.4`"
+          },
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-merge-config\" from `*` to `1.0.2`"
+          },
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-overrides\" from `*` to `1.0.4`"
+          }
+        ]
+      }
+    }
+  ]
+}

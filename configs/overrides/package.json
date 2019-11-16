@@ -1,6 +1,6 @@
 {
   "name": "@jtechsvcs/eslint-overrides",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Eslint override configs for JTechSvcs®",
   "main": "index.js",
   "repository": {

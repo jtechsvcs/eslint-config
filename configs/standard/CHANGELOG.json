@@ -2,6 +2,23 @@
   "name": "@jtechsvcs/eslint-config-standard",
   "entries": [
     {
+      "version": "1.0.6",
+      "tag": "@jtechsvcs/eslint-config-standard_v1.0.6",
+      "date": "Sat, 16 Nov 2019 05:58:48 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "git repository update -> github"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-overrides\" from `*` to `1.0.4`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.5",
       "tag": "@jtechsvcs/eslint-config-standard_v1.0.5",
       "date": "Sat, 16 Nov 2019 05:46:34 GMT",

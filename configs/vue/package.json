@@ -1,6 +1,6 @@
 {
   "name": "@jtechsvcs/eslint-config-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vue eslint configs for JTechSvcs®",
   "main": "index.js",
   "repository": {
@@ -22,8 +22,8 @@
     "eslint-plugin-vue": "^5.2.3"
   },
   "dependencies": {
-    "@jtechsvcs/eslint-config-standard": "*",
-    "@jtechsvcs/eslint-merge-config": "*",
-    "@jtechsvcs/eslint-overrides": "*"
+    "@jtechsvcs/eslint-config-standard": "1.0.6",
+    "@jtechsvcs/eslint-merge-config": "1.0.2",
+    "@jtechsvcs/eslint-overrides": "1.0.4"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@jtechsvcs/eslint-config-react-typescript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React + Typescript eslint configs for JTechSvcs®",
   "main": "index.js",
   "repository": {
@@ -25,9 +25,9 @@
     "eslint-plugin-react": "^7.14.2"
   },
   "dependencies": {
-    "@jtechsvcs/eslint-config-react": "*",
-    "@jtechsvcs/eslint-config-typescript": "*",
-    "@jtechsvcs/eslint-merge-config": "*",
-    "@jtechsvcs/eslint-overrides": "*"
+    "@jtechsvcs/eslint-config-react": "1.0.4",
+    "@jtechsvcs/eslint-config-typescript": "1.0.5",
+    "@jtechsvcs/eslint-merge-config": "1.0.2",
+    "@jtechsvcs/eslint-overrides": "1.0.4"
   }
 }

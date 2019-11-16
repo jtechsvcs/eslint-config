@@ -1,0 +1,17 @@
+{
+  "name": "@jtechsvcs/eslint-merge-config",
+  "entries": [
+    {
+      "version": "1.0.2",
+      "tag": "@jtechsvcs/eslint-merge-config_v1.0.2",
+      "date": "Sat, 16 Nov 2019 05:58:48 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "git repository update -> github"
+          }
+        ]
+      }
+    }
+  ]
+}

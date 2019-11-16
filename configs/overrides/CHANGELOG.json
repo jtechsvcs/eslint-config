@@ -1,0 +1,17 @@
+{
+  "name": "@jtechsvcs/eslint-overrides",
+  "entries": [
+    {
+      "version": "1.0.4",
+      "tag": "@jtechsvcs/eslint-overrides_v1.0.4",
+      "date": "Sat, 16 Nov 2019 05:58:48 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "git repository update -> github"
+          }
+        ]
+      }
+    }
+  ]
+}
