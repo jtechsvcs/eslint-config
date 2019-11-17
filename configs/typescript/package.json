@@ -1,6 +1,6 @@
 {
   "name": "@jtechsvcs/eslint-config-typescript",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Typescript eslint configs for JTechSvcs®",
   "main": "index.js",
   "repository": {
@@ -24,7 +24,7 @@
     "eslint": "^6.0.0"
   },
   "dependencies": {
-    "@jtechsvcs/eslint-config-standard": "^1.0.6",
+    "@jtechsvcs/eslint-config-standard": "^1.0.7",
     "@jtechsvcs/eslint-merge-config": "^1.0.2",
     "@jtechsvcs/eslint-overrides": "^1.0.4"
   }

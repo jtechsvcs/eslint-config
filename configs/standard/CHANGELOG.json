@@ -2,6 +2,18 @@
   "name": "@jtechsvcs/eslint-config-standard",
   "entries": [
     {
+      "version": "1.0.7",
+      "tag": "@jtechsvcs/eslint-config-standard_v1.0.7",
+      "date": "Sun, 17 Nov 2019 08:47:35 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Indent changes"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.6",
       "tag": "@jtechsvcs/eslint-config-standard_v1.0.6",
       "date": "Sat, 16 Nov 2019 05:58:48 GMT",
