@@ -1,6 +1,6 @@
 {
   "name": "@jtechsvcs/eslint-config-react-typescript",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React + Typescript eslint configs for JTechSvcs®",
   "main": "index.js",
   "repository": {
