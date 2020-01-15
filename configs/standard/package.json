@@ -19,8 +19,5 @@
   ],
   "peerDependencies": {
     "eslint": "^6.0.0"
-  },
-  "dependencies": {
-    "@jtechsvcs/eslint-overrides": "^1.0.4"
   }
 }
