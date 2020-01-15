@@ -1,3 +1,4 @@
-test('Overrides executes successfully', () => {
-	expect(require('../index')).toEqual(expect.any(Object));
+test('Overrides execute successfully', () => {
+    const config = require('../index');
+    expect(config).toEqual(expect.any(Object));
 });
