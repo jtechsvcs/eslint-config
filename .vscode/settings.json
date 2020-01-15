@@ -1,4 +1,4 @@
 {
   "eslint.nodePath": "common/temp/node_modules",
-  "jest.pathToJest": "common/temp/node_modules/.bin/jest"
+  "jest.pathToJest": "common/temp/node_modules/jest/bin/jest"
 }
