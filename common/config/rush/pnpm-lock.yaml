@@ -1,12 +1,11 @@
 dependencies:
-  '@rush-temp/eslint-config-react': 'file:projects/eslint-config-react.tgz'
+  '@jtechsvcs/eslint-config-react': 1.0.4_c9439eb9a0a1c704d5858d1a2eab435b
   '@rush-temp/eslint-config-react-typescript': 'file:projects/eslint-config-react-typescript.tgz'
   '@rush-temp/eslint-config-standard': 'file:projects/eslint-config-standard.tgz'
   '@rush-temp/eslint-config-typescript': 'file:projects/eslint-config-typescript.tgz'
   '@rush-temp/eslint-config-vue': 'file:projects/eslint-config-vue.tgz'
   '@rush-temp/eslint-config-vue-typescript': 'file:projects/eslint-config-vue-typescript.tgz'
   '@rush-temp/eslint-merge-config': 'file:projects/eslint-merge-config.tgz'
-  '@rush-temp/eslint-overrides': 'file:projects/eslint-overrides.tgz'
   '@types/jest': 24.0.18
   eslint: 6.4.0
   eslint-plugin-react: 7.16.0_eslint@6.4.0
@@ -304,6 +303,36 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-XKK7ze1apu5JWQ5eZjHITP66AX+QsLlbaJRBGYr8pNzwcAE2JVkwnf0yqjHTsDRcjR0mujy/NmZMXw5kl+kGBw==
+  /@jtechsvcs/eslint-config-react/1.0.4_c9439eb9a0a1c704d5858d1a2eab435b:
+    dependencies:
+      '@jtechsvcs/eslint-config-standard': 1.0.6_eslint@6.4.0
+      '@jtechsvcs/eslint-merge-config': 1.0.2
+      '@jtechsvcs/eslint-overrides': 1.0.4
+      eslint: 6.4.0
+      eslint-plugin-react: 7.16.0_eslint@6.4.0
+    dev: false
+    peerDependencies:
+      eslint: ^6.0.0
+      eslint-plugin-react: ^7.14.2
+    resolution:
+      integrity: sha512-7DxVWQ5kvX5vX2purmvs1NpCrKZyfd3oRbrJk7L4jwwjfIAyT6C1V9rcqyQ6wJ9pDotLW2YIH28kfvK4z0USmw==
+  /@jtechsvcs/eslint-config-standard/1.0.6_eslint@6.4.0:
+    dependencies:
+      '@jtechsvcs/eslint-overrides': 1.0.4
+      eslint: 6.4.0
+    dev: false
+    peerDependencies:
+      eslint: ^6.0.0
+    resolution:
+      integrity: sha512-h78rRqKQFHatIRYuUVwiOV54ECIQmMcZQDjbAaOlW/K66Fx6Klq8f5kU5NHeIPvwRmTYIx3eR5okqWmHMfBdvQ==
+  /@jtechsvcs/eslint-merge-config/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha512-V7lB8OUP74Pppi9s+nJ1oOCQqdlR6w4tXMDx9MuVzn/btogSmgHRXKLuhAHdryEUZOqDg4RN0wlV+JGPB+5BQA==
+  /@jtechsvcs/eslint-overrides/1.0.4:
+    dev: false
+    resolution:
+      integrity: sha512-OUxoL+BDRprCgTq7DJ2JFNUmcdXLRzgNPf4erneP6ySgKDKdslPUrDmkxPgZ3QdrW3oiQj5hnulhWDnJF0lOUA==
   /@types/babel__core/7.1.3:
     dependencies:
       '@babel/parser': 7.7.3
@@ -2262,6 +2291,9 @@ packages:
       node: '>=6'
     peerDependencies:
       jest-resolve: '*'
+    peerDependenciesMeta:
+      jest-resolve:
+        optional: true
     resolution:
       integrity: sha512-pgFw2tm54fzgYvc/OHrnysABEObZCUNFnhjoRjaVOCN8NYc032/gVjPaHD4Aq6ApkSieWtfKAFQtmDKAmhupnQ==
   /jest-regex-util/24.9.0:
@@ -4110,6 +4142,7 @@ packages:
       integrity: sha512-2eehun/8ALW8TLoIl7MVaRUrg+yCnenu8B4kBlRxj3GJGDKU1Og7sMXPNm1BYyM1DOJmTZ4YeN/Nwxv+8XJsUA==
   'file:projects/eslint-config-react-typescript.tgz':
     dependencies:
+      '@jtechsvcs/eslint-config-react': 1.0.4_c9439eb9a0a1c704d5858d1a2eab435b
       '@typescript-eslint/eslint-plugin': 1.13.0_3978a004d3fd6b20cf81000d5130206c
       '@typescript-eslint/parser': 1.13.0_eslint@6.4.0
       '@typescript-eslint/typescript-estree': 1.13.0
@@ -4118,18 +4151,8 @@ packages:
     dev: false
     name: '@rush-temp/eslint-config-react-typescript'
     resolution:
-      integrity: sha512-imcGwGKaI93lzFDIVQkp8D7fZ8wbBl1KYOnwrChn5wasRgKiwEN3dtaYkg0Ydq51h80v8TRG3l+52jLFmPbNvw==
+      integrity: sha512-DFOnsJ87K2QS5/fAF+1+7iVIV1BJtr3ERqrq7SQyBMhr1+ON45v63QshPnuSNuo17HFqw6PvKlB8j82sVb736Q==
       tarball: 'file:projects/eslint-config-react-typescript.tgz'
-    version: 0.0.0
-  'file:projects/eslint-config-react.tgz':
-    dependencies:
-      eslint: 6.4.0
-      eslint-plugin-react: 7.16.0_eslint@6.4.0
-    dev: false
-    name: '@rush-temp/eslint-config-react'
-    resolution:
-      integrity: sha512-91bfrk9w+cSvEsadPNCK4Ug1gyE6BhV8pOJLS6ag4lp2tzRGgtXrIZc+hnZSJIV0ThtltQ6+WUynw9LF6wR0ZA==
-      tarball: 'file:projects/eslint-config-react.tgz'
     version: 0.0.0
   'file:projects/eslint-config-standard.tgz':
     dependencies:
@@ -4137,7 +4160,7 @@ packages:
     dev: false
     name: '@rush-temp/eslint-config-standard'
     resolution:
-      integrity: sha512-7KuaRvWUXFLg3XaMs2R/dc6aQCaJlgZxvxNZwQ5+Wbm62AQWpgMcl41qh+eDF132qmWOCs0Ruq4dgFd5P7Bfjw==
+      integrity: sha512-44fPYIOocrZdux7kK4mL1m2HD8JhY1KhQ1mJP8sL2gOzeGh0O/7Bwe0pUJmUjMVfWz/H3xPTpn2BVqvP9W4gsg==
       tarball: 'file:projects/eslint-config-standard.tgz'
     version: 0.0.0
   'file:projects/eslint-config-typescript.tgz':
@@ -4149,7 +4172,7 @@ packages:
     dev: false
     name: '@rush-temp/eslint-config-typescript'
     resolution:
-      integrity: sha512-ql05Bzl3kAiDSHLxMwSTFA2CsIGJ9DKCMiEuM7Gxr5xgEM9uk+78l86b879QqQXit3qB+J9q12B/VB122o3pow==
+      integrity: sha512-8Qz3C+1IGvfkABl8KxKaVJ5XjKkKPFb0mklN29mXQaPNaW7qU162dvcVsLoWSBjufPTTRAuSbFyy0XhYPGgl4A==
       tarball: 'file:projects/eslint-config-typescript.tgz'
     version: 0.0.0
   'file:projects/eslint-config-vue-typescript.tgz':
@@ -4162,7 +4185,7 @@ packages:
     dev: false
     name: '@rush-temp/eslint-config-vue-typescript'
     resolution:
-      integrity: sha512-shewzOu5xgSyip/WDPaAULN0UN11PKy04McOxf6/4C7cvman59PU+hSbL/b4Zfb3ZIjMZi3Fene/JF+PLwtXQw==
+      integrity: sha512-kJII04hLyDePqEbQ+TWz0PhY+RA7rXL94gMRl+uW6NQ+jT/Oc3vt0cEQT2tiw7wKomE79Vdtq+rA7NAwNxRaSw==
       tarball: 'file:projects/eslint-config-vue-typescript.tgz'
     version: 0.0.0
   'file:projects/eslint-config-vue.tgz':
@@ -4172,7 +4195,7 @@ packages:
     dev: false
     name: '@rush-temp/eslint-config-vue'
     resolution:
-      integrity: sha512-TvKenSPs0I+a/Z+KQGlErdQ6mcehLhqjePABYqJuvfFXmdQko6VmmyD1Cr8EiXIioqypm++w0ZTd69w11TPbXg==
+      integrity: sha512-r9vr03ESkr1QzqBSUCHWvM9aZjl0/oYUE3KRf8MWTNQ5CNmJjD4t1B215lI6HX5puH+7aF6lBsGZiEZbtKraDg==
       tarball: 'file:projects/eslint-config-vue.tgz'
     version: 0.0.0
   'file:projects/eslint-merge-config.tgz':
@@ -4182,23 +4205,15 @@ packages:
       integrity: sha512-9iMJ9tzgp+3ePFxfjcEjjjB7qneN9/eSPuGWHmj/WCnp1nNQCknOBwCQyr6irIEyffpjJEQn8XcjzVXzMU3JFg==
       tarball: 'file:projects/eslint-merge-config.tgz'
     version: 0.0.0
-  'file:projects/eslint-overrides.tgz':
-    dev: false
-    name: '@rush-temp/eslint-overrides'
-    resolution:
-      integrity: sha512-XPFfgiybnuz4fsRLiXWR2Lh+2vLPo/0Z/k1/o/jmQIFLb1aFs1YoQKfJcaV6bT42SPjZAFcRPm5MRuG6Ry7udA==
-      tarball: 'file:projects/eslint-overrides.tgz'
-    version: 0.0.0
 registry: ''
 specifiers:
-  '@rush-temp/eslint-config-react': 'file:./projects/eslint-config-react.tgz'
+  '@jtechsvcs/eslint-config-react': ^1.0.4
   '@rush-temp/eslint-config-react-typescript': 'file:./projects/eslint-config-react-typescript.tgz'
   '@rush-temp/eslint-config-standard': 'file:./projects/eslint-config-standard.tgz'
   '@rush-temp/eslint-config-typescript': 'file:./projects/eslint-config-typescript.tgz'
   '@rush-temp/eslint-config-vue': 'file:./projects/eslint-config-vue.tgz'
   '@rush-temp/eslint-config-vue-typescript': 'file:./projects/eslint-config-vue-typescript.tgz'
   '@rush-temp/eslint-merge-config': 'file:./projects/eslint-merge-config.tgz'
-  '@rush-temp/eslint-overrides': 'file:./projects/eslint-overrides.tgz'
   '@types/jest': 24.0.18
   eslint: 6.4.0
   eslint-plugin-react: ^7.14.2
