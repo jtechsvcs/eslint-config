@@ -1,12 +1,14 @@
-const overrides = require('@jtechsvcs/eslint-overrides');
 const merge = require('@jtechsvcs/eslint-merge-config');
-const typescript = require('@jtechsvcs/eslint-config-typescript');
-const vue = require('@jtechsvcs/eslint-config-vue');
-const mergeVue = require('./config/vueTypescript.json');
+const standard = require('@jtechsvcs/eslint-config-standard');
+const typescript = require('@jtechsvcs/eslint-config-typescript/config/overrides.json');
+const vue = require('@jtechsvcs/eslint-config-vue/config/overrides.json');
 
-let mergedConfig = merge(merge(mergeVue, vue), typescript);
-mergedConfig.overrides = overrides.vueTypescript;
+let mergedConfig = standard;
+mergedConfig.overrides = [
+    {
+        files: [ "*.ts", "*.vue" ],
+        ...merge(vue, typescript),
+    },
+];
 
-module.exports = {
-	...mergedConfig,
-};
+module.exports = mergedConfig;

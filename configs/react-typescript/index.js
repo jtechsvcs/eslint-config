@@ -1,12 +1,18 @@
-const overrides = require('@jtechsvcs/eslint-overrides');
 const merge = require('@jtechsvcs/eslint-merge-config');
-const typescript = require('@jtechsvcs/eslint-config-typescript');
-const react = require('@jtechsvcs/eslint-config-react');
-const reactTypescript = require('./config/reactTypescript.json');
+const standard = require('@jtechsvcs/eslint-config-standard');
+const typescript = require('@jtechsvcs/eslint-config-typescript/config/overrides.json');
+const react = require('@jtechsvcs/eslint-config-react/config/overrides.json');
 
-let mergedConfig = merge(merge(reactTypescript, react), typescript);
-mergedConfig.overrides = overrides.reactTypescript;
+let mergedConfig = standard;
+mergedConfig.overrides = [
+    {
+        files: [ "*.ts", "*.tsx" ],
+        ...merge(react, typescript),
+    },
+    {
+        files: [ "*.jsx" ],
+        ...react,
+    },
+];
 
-module.exports = {
-	...mergedConfig,
-};
+module.exports = mergedConfig;
