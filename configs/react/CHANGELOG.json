@@ -2,6 +2,18 @@
   "name": "@jtechsvcs/eslint-config-react",
   "entries": [
     {
+      "version": "2.0.1",
+      "tag": "@jtechsvcs/eslint-config-react_v2.0.1",
+      "date": "Wed, 15 Jan 2020 19:32:51 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "JSX Props updates: indent should be 4 spaces, and max props per line should only be 1 when they are multiline"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.0.0",
       "tag": "@jtechsvcs/eslint-config-react_v2.0.0",
       "date": "Wed, 15 Jan 2020 19:09:11 GMT",
