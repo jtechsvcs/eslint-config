@@ -328,11 +328,6 @@
     // },
     // 
     {
-      "packageName": "@jtechsvcs/eslint-config-react-typescript",
-      "projectFolder": "configs/react-typescript",
-      "shouldPublish": true
-    },
-    {
       "packageName": "@jtechsvcs/eslint-config-standard",
       "projectFolder": "configs/standard",
       "shouldPublish": true
@@ -343,8 +338,18 @@
       "shouldPublish": true
     },
     {
+      "packageName": "@jtechsvcs/eslint-config-react",
+      "projectFolder": "configs/react",
+      "shouldPublish": true
+    },
+    {
       "packageName": "@jtechsvcs/eslint-config-vue",
       "projectFolder": "configs/vue",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@jtechsvcs/eslint-config-react-typescript",
+      "projectFolder": "configs/react-typescript",
       "shouldPublish": true
     },
     {
