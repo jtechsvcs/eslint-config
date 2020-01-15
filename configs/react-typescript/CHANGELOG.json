@@ -2,6 +2,18 @@
   "name": "@jtechsvcs/eslint-config-react-typescript",
   "entries": [
     {
+      "version": "1.0.5",
+      "tag": "@jtechsvcs/eslint-config-react-typescript_v1.0.5",
+      "date": "Thu, 12 Dec 2019 23:50:43 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "package.json version number updates"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.4",
       "tag": "@jtechsvcs/eslint-config-react-typescript_v1.0.4",
       "date": "Sat, 16 Nov 2019 05:58:48 GMT",
