@@ -2,6 +2,18 @@
   "name": "@jtechsvcs/eslint-config-standard",
   "entries": [
     {
+      "version": "2.0.0",
+      "tag": "@jtechsvcs/eslint-config-standard_v2.0.0",
+      "date": "Wed, 15 Jan 2020 19:09:11 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Converted configurations to use overrides with rules for specific file types, instead of global rules"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.7",
       "tag": "@jtechsvcs/eslint-config-standard_v1.0.7",
       "date": "Sun, 17 Nov 2019 08:47:35 GMT",

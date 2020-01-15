@@ -1,6 +1,13 @@
 # Change Log - @jtechsvcs/eslint-config-typescript
 
-This log was last generated on Sun, 17 Nov 2019 08:47:35 GMT and should not be manually modified.
+This log was last generated on Wed, 15 Jan 2020 19:09:11 GMT and should not be manually modified.
+
+## 2.0.0
+Wed, 15 Jan 2020 19:09:11 GMT
+
+### Breaking changes
+
+- Converted configurations to use overrides with rules for specific file types, instead of global rules
 
 ## 1.0.6
 Sun, 17 Nov 2019 08:47:35 GMT

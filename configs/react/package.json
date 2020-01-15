@@ -1,6 +1,6 @@
 {
   "name": "@jtechsvcs/eslint-config-react",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "React eslint configs for JTechSvcs®",
   "main": "index.js",
   "repository": {
@@ -22,7 +22,7 @@
     "eslint-plugin-react": "^7.17.0"
   },
   "dependencies": {
-    "@jtechsvcs/eslint-config-standard": "^1.0.7",
+    "@jtechsvcs/eslint-config-standard": "^2.0.0",
     "@jtechsvcs/eslint-merge-config": "^1.0.2"
   }
 }

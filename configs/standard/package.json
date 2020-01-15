@@ -1,6 +1,6 @@
 {
   "name": "@jtechsvcs/eslint-config-standard",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "Standard eslint configs for JTechSvcs®",
   "main": "index.js",
   "repository": {

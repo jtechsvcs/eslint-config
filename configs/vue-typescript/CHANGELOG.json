@@ -2,6 +2,29 @@
   "name": "@jtechsvcs/eslint-config-vue-typescript",
   "entries": [
     {
+      "version": "2.0.0",
+      "tag": "@jtechsvcs/eslint-config-vue-typescript_v2.0.0",
+      "date": "Wed, 15 Jan 2020 19:09:11 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Converted configurations to use overrides with rules for specific file types, instead of global rules"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-config-standard\" from `^1.0.7` to `^2.0.0`"
+          },
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-config-typescript\" from `^1.0.6` to `^2.0.0`"
+          },
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-config-vue\" from `^1.0.4` to `^2.0.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.5",
       "tag": "@jtechsvcs/eslint-config-vue-typescript_v1.0.5",
       "date": "Sat, 16 Nov 2019 05:58:48 GMT",
