@@ -328,16 +328,6 @@
     // },
     // 
     {
-      "packageName": "@jtechsvcs/eslint-overrides",
-      "projectFolder": "configs/overrides",
-      "shouldPublish": true
-    },
-    {
-      "packageName": "@jtechsvcs/eslint-config-react",
-      "projectFolder": "configs/react",
-      "shouldPublish": true
-    },
-    {
       "packageName": "@jtechsvcs/eslint-config-react-typescript",
       "projectFolder": "configs/react-typescript",
       "shouldPublish": true
