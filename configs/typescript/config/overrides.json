@@ -1,26 +1,44 @@
 {
-	"extends": [
-		"plugin:@typescript-eslint/eslint-recommended",
-		"plugin:@typescript-eslint/recommended"
-	],
-	"parserOptions": {
-		"parser": "@typescript-eslint/parser"
-	},
-	"rules": {
-		"indent": "off",
-        "@typescript-eslint/indent": [
-			"warn",
-			4
-		],
-		"@typescript-eslint/no-unused-vars": "off",
-		"@typescript-eslint/explicit-function-return-type": [
-			"error",
-			{
-				"allowExpressions": true,
-				"allowHigherOrderFunctions": true,
-				"allowTypedFunctionExpressions": true
-			}
-		],
-		"@typescript-eslint/interface-name-prefix": "off"
-	}
+  "extends": [
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser"
+  },
+  "rules": {
+    "indent": "off",
+    "@typescript-eslint/indent": [
+      "warn",
+      4,
+      {
+        "FunctionDeclaration": {
+          "parameters": "first"
+        },
+        "FunctionExpression": {
+          "parameters": "first"
+        },
+        "CallExpression": {
+          "parameters": "first"
+        },
+        "ArrayExpression": "first",
+        "ObjectExpression": "first",
+        "ImportDeclaration": "first",
+        "flatTernaryExpressions": false,
+        "ignoredNodes": [
+          "TSTypeParameterInstantiation "
+        ]
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true,
+        "allowHigherOrderFunctions": true,
+        "allowTypedFunctionExpressions": true
+      }
+    ],
+    "@typescript-eslint/interface-name-prefix": "off"
+  }
 }
