@@ -1,6 +1,13 @@
 # Change Log - @jtechsvcs/eslint-config-typescript
 
-This log was last generated on Wed, 15 Jan 2020 19:09:11 GMT and should not be manually modified.
+This log was last generated on Fri, 17 Jan 2020 23:46:48 GMT and should not be manually modified.
+
+## 2.0.1
+Fri, 17 Jan 2020 23:46:48 GMT
+
+### Patches
+
+- typescript indent specificity
 
 ## 2.0.0
 Wed, 15 Jan 2020 19:09:11 GMT

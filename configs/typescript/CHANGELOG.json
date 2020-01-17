@@ -2,6 +2,18 @@
   "name": "@jtechsvcs/eslint-config-typescript",
   "entries": [
     {
+      "version": "2.0.1",
+      "tag": "@jtechsvcs/eslint-config-typescript_v2.0.1",
+      "date": "Fri, 17 Jan 2020 23:46:48 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "typescript indent specificity"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.0.0",
       "tag": "@jtechsvcs/eslint-config-typescript_v2.0.0",
       "date": "Wed, 15 Jan 2020 19:09:11 GMT",
