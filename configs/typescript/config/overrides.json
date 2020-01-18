@@ -27,7 +27,8 @@
         "flatTernaryExpressions": false,
         "ignoredNodes": [
           "TSTypeParameterInstantiation "
-        ]
+        ],
+        "SwitchCase": 1
       }
     ],
     "@typescript-eslint/no-unused-vars": "off",
