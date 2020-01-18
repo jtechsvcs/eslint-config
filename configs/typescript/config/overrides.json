@@ -19,7 +19,7 @@
           "parameters": "first"
         },
         "CallExpression": {
-          "parameters": "first"
+          "arguments": "first"
         },
         "ArrayExpression": "first",
         "ObjectExpression": "first",
