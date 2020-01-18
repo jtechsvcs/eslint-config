@@ -2,6 +2,18 @@
   "name": "@jtechsvcs/eslint-config-typescript",
   "entries": [
     {
+      "version": "2.0.3",
+      "tag": "@jtechsvcs/eslint-config-typescript_v2.0.3",
+      "date": "Sat, 18 Jan 2020 08:23:23 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "SwitchCase should be 1"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.0.2",
       "tag": "@jtechsvcs/eslint-config-typescript_v2.0.2",
       "date": "Sat, 18 Jan 2020 06:37:06 GMT",

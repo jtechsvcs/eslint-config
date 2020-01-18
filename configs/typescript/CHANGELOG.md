@@ -1,6 +1,13 @@
 # Change Log - @jtechsvcs/eslint-config-typescript
 
-This log was last generated on Sat, 18 Jan 2020 06:37:06 GMT and should not be manually modified.
+This log was last generated on Sat, 18 Jan 2020 08:23:23 GMT and should not be manually modified.
+
+## 2.0.3
+Sat, 18 Jan 2020 08:23:23 GMT
+
+### Patches
+
+- SwitchCase should be 1
 
 ## 2.0.2
 Sat, 18 Jan 2020 06:37:06 GMT

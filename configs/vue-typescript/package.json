@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@jtechsvcs/eslint-config-standard": "^2.0.0",
-    "@jtechsvcs/eslint-config-typescript": "^2.0.2",
+    "@jtechsvcs/eslint-config-typescript": "^2.0.3",
     "@jtechsvcs/eslint-config-vue": "^2.0.0",
     "@jtechsvcs/eslint-merge-config": "^1.0.2"
   }
