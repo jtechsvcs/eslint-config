@@ -1,6 +1,6 @@
 {
   "name": "@jtechsvcs/eslint-config-typescript",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Typescript eslint configs for JTechSvcs®",
   "main": "index.js",
   "repository": {
