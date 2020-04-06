@@ -2,6 +2,18 @@
   "name": "@jtechsvcs/eslint-merge-config",
   "entries": [
     {
+      "version": "1.1.1",
+      "tag": "@jtechsvcs/eslint-merge-config_v1.1.1",
+      "date": "Mon, 06 Apr 2020 04:24:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Disable recursive merging"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.1.0",
       "tag": "@jtechsvcs/eslint-merge-config_v1.1.0",
       "date": "Mon, 06 Apr 2020 04:08:40 GMT",

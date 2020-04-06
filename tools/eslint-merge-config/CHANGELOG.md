@@ -1,6 +1,13 @@
 # Change Log - @jtechsvcs/eslint-merge-config
 
-This log was last generated on Mon, 06 Apr 2020 04:08:40 GMT and should not be manually modified.
+This log was last generated on Mon, 06 Apr 2020 04:24:52 GMT and should not be manually modified.
+
+## 1.1.1
+Mon, 06 Apr 2020 04:24:52 GMT
+
+### Patches
+
+- Disable recursive merging
 
 ## 1.1.0
 Mon, 06 Apr 2020 04:08:40 GMT
