@@ -1,11 +1,11 @@
 /**
- * Does a recursive merge of object `from` to object `to`.
+ * Does a shallow merge of object `from` to object `to`.
  * Traverses each of the keys in Object `from`, allowing for:
  * 
  * * If the value of a key is an array, it will be concatenated
  * 	 onto `to`.
- * * If the value of a key is an object, it will recurse into the object,
- * 	 following these same procedures, and extend `to` with the results.
+ * * If the value of a key is an object it will extend `to` the
+ *   key/values of that object.
  * @param {Object} from Object to copy from
  * @param {Object} to Object to copy to
  * @returns {Object} The object that has been extended
@@ -27,7 +27,7 @@ function merge(from, to) {
 				!(typeof mergedInto[key] === "object")
             ) mergedInto[key] = {};
 			
-            Object.assign(mergedInto[key], merge(from[key], mergedInto[key]));
+            Object.assign(mergedInto[key], from[key]);
         } else {
             mergedInto[key] = from[key];
         }
