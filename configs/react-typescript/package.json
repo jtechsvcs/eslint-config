@@ -28,6 +28,6 @@
     "@jtechsvcs/eslint-config-react": "^2.0.4",
     "@jtechsvcs/eslint-config-standard": "^2.0.0",
     "@jtechsvcs/eslint-config-typescript": "^2.0.6",
-    "@jtechsvcs/eslint-merge-config": "^1.1.4"
+    "@jtechsvcs/eslint-merge-config": "^1.1.5"
   }
 }
