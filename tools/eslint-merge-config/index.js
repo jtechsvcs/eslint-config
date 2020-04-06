@@ -1,3 +1,5 @@
+const deepCopy = require('./utils/deepCopy');
+
 /**
  * Does a shallow merge of object `from` to object `to`.
  * Traverses each of the keys in Object `from`, allowing for:
@@ -11,7 +13,7 @@
  * @returns {Object} The object that has been extended
  */
 function merge(from, to) {
-    const mergedInto = Object.assign({}, to);
+    const mergedInto = deepCopy(to);
     for (var key in from) {
         let hasKey = mergedInto.hasOwnProperty(key);
         if (Array.isArray(from[key])) {
