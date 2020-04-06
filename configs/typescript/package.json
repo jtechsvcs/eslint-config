@@ -25,6 +25,6 @@
   },
   "dependencies": {
     "@jtechsvcs/eslint-config-standard": "^2.0.0",
-    "@jtechsvcs/eslint-merge-config": "^1.1.0"
+    "@jtechsvcs/eslint-merge-config": "^1.1.1"
   }
 }

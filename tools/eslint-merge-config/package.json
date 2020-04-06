@@ -1,19 +1,19 @@
 {
-	"name": "@jtechsvcs/eslint-merge-config",
-	"version": "1.1.1",
-	"description": "Eslint configuration merger utility",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Js-Brecht/eslint-config"
-	},
-	"author": "Jeremy Albright",
-	"license": "MIT",
-	"files": [
-		"package.json",
-		"index.js"
-	],
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@jtechsvcs/eslint-merge-config",
+  "version": "1.1.1",
+  "description": "Eslint configuration merger utility",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Js-Brecht/eslint-config"
+  },
+  "author": "Jeremy Albright",
+  "license": "MIT",
+  "files": [
+    "package.json",
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
