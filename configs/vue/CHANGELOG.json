@@ -2,6 +2,23 @@
   "name": "@jtechsvcs/eslint-config-vue",
   "entries": [
     {
+      "version": "2.0.3",
+      "tag": "@jtechsvcs/eslint-config-vue_v2.0.3",
+      "date": "Mon, 06 Apr 2020 04:58:21 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "bump eslint-merge-config version"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-merge-config\" from `^1.1.3` to `^1.1.4`"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.0.2",
       "tag": "@jtechsvcs/eslint-config-vue_v2.0.2",
       "date": "Mon, 06 Apr 2020 04:26:18 GMT",

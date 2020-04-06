@@ -1,6 +1,6 @@
 {
   "name": "@jtechsvcs/eslint-config-vue-typescript",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Vue + Typescript eslint configs for JTechSvcs®",
   "main": "index.js",
   "repository": {
@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "@jtechsvcs/eslint-config-standard": "^2.0.0",
-    "@jtechsvcs/eslint-config-typescript": "^2.0.5",
-    "@jtechsvcs/eslint-config-vue": "^2.0.2",
-    "@jtechsvcs/eslint-merge-config": "^1.1.3"
+    "@jtechsvcs/eslint-config-typescript": "^2.0.6",
+    "@jtechsvcs/eslint-config-vue": "^2.0.3",
+    "@jtechsvcs/eslint-merge-config": "^1.1.4"
   }
 }
