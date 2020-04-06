@@ -1,4 +1,5 @@
 const merge = require('../index');
+const deepCopy = require('../utils/deepCopy');
 
 describe('Config merge tests', () => {
     it('Correctly merges a shallow object', () => {
@@ -53,14 +54,15 @@ describe('Config merge tests', () => {
     });
 
     it('Doesnt mutate original objects', () => {
-        
+
         const from = {
             test1: 1234,
             test2: [ 1234, 4321 ],
             test3: 'asdf',
-        };
-        const originalFrom = {
-            ...from,
+            test4: {
+                asdf: 1234,
+                bar: 'baz',
+            },
         };
         const to = {
             test1: [ 1, 2, 3 ],
@@ -68,10 +70,13 @@ describe('Config merge tests', () => {
             test3: {
                 asdf: 'foo',
             },
+            test4: {
+                foo: 'bar',
+            },
         };
-        const originalTo = {
-            ...to,
-        };
+
+        const originalFrom = deepCopy(from);
+        const originalTo = deepCopy(to);
 
         const results = merge(from, to);
 
