@@ -1,0 +1,122 @@
+const merge = require('../index');
+
+describe('Config merge tests', () => {
+    it('Correctly merges a shallow object', () => {
+        const from = {
+            test1: 1234,
+            test2: [ 1234, 4321 ],
+            test3: {
+                asdf: 'fdsa',
+                fdsa: 'asdf',
+            },
+        };
+        const to = {
+            test1: 4321,
+            test2: [ 5678 ],
+            test3: {
+                asdf: 'foo',
+                fdsa: 'bar',
+                baz: 'foobar!',
+            },
+        };
+
+        expect(merge(from, to)).toEqual({
+            test1: 1234,
+            test2: [ 5678, 1234, 4321 ],
+            test3: {
+                asdf: 'fdsa',
+                fdsa: 'asdf',
+                baz: 'foobar!',
+            },
+        });
+    });
+
+    it('Correctly merges an object recursively', () => {
+        const from = {
+            test1: 1234,
+            test2: [ 1234, 4321 ],
+            test3: {
+                asdf: 'fdsa',
+                fdsa: {
+                    foo: 'asdf',
+                    bar: 'fdsa',
+                    baz: [ 'foo', 'bar' ],
+                },
+            },
+        };
+        const to = {
+            test1: 4321,
+            test2: [ 5678 ],
+            test3: {
+                asdf: 'foo',
+                fdsa: {
+                    foo: 'fdsa',
+                    bar: 'asdf',
+                    baz: [ 'baz' ],
+                },
+            },
+        };
+
+        expect(merge(from, to)).toEqual({
+            test1: 1234,
+            test2: [ 5678, 1234, 4321 ],
+            test3: {
+                asdf: 'fdsa',
+                fdsa: {
+                    foo: 'asdf',
+                    bar: 'fdsa',
+                    baz: [ 'baz', 'foo', 'bar' ],
+                },
+            },
+        });
+    });
+
+    it('Correctly overwrites values', () => {
+        const from = {
+            test1: 1234,
+            test2: [ 1234, 4321 ],
+            test3: 'asdf',
+        };
+        const to = {
+            test1: [ 1, 2, 3 ],
+            test2: [ 5678 ],
+            test3: {
+                asdf: 'foo',
+            },
+        };
+
+        expect(merge(from, to)).toEqual({
+            test1: 1234,
+            test2: [ 5678, 1234, 4321 ],
+            test3: 'asdf',
+        });
+    });
+
+    it('Doesnt mutate original objects', () => {
+        
+        const from = {
+            test1: 1234,
+            test2: [ 1234, 4321 ],
+            test3: 'asdf',
+        };
+        const originalFrom = {
+            ...from,
+        };
+        const to = {
+            test1: [ 1, 2, 3 ],
+            test2: [ 5678 ],
+            test3: {
+                asdf: 'foo',
+            },
+        };
+        const originalTo = {
+            ...to,
+        };
+
+        const results = merge(from, to);
+
+        expect(results).not.toBe(to);
+        expect(from).toEqual(originalFrom);
+        expect(to).toEqual(originalTo);
+    });
+});
