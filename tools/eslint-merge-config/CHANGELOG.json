@@ -2,6 +2,18 @@
   "name": "@jtechsvcs/eslint-merge-config",
   "entries": [
     {
+      "version": "1.1.5",
+      "tag": "@jtechsvcs/eslint-merge-config_v1.1.5",
+      "date": "Mon, 06 Apr 2020 05:01:20 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "include utils"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.1.4",
       "tag": "@jtechsvcs/eslint-merge-config_v1.1.4",
       "date": "Mon, 06 Apr 2020 04:58:21 GMT",

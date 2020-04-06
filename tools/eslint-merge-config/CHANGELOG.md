@@ -1,6 +1,13 @@
 # Change Log - @jtechsvcs/eslint-merge-config
 
-This log was last generated on Mon, 06 Apr 2020 04:58:21 GMT and should not be manually modified.
+This log was last generated on Mon, 06 Apr 2020 05:01:20 GMT and should not be manually modified.
+
+## 1.1.5
+Mon, 06 Apr 2020 05:01:20 GMT
+
+### Patches
+
+- include utils
 
 ## 1.1.4
 Mon, 06 Apr 2020 04:58:21 GMT
