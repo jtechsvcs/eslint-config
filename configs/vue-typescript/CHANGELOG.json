@@ -2,6 +2,29 @@
   "name": "@jtechsvcs/eslint-config-vue-typescript",
   "entries": [
     {
+      "version": "2.0.2",
+      "tag": "@jtechsvcs/eslint-config-vue-typescript_v2.0.2",
+      "date": "Mon, 06 Apr 2020 04:26:18 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "bump(eslint-merge-config) dependency version"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-config-typescript\" from `^2.0.4` to `^2.0.5`"
+          },
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-config-vue\" from `^2.0.1` to `^2.0.2`"
+          },
+          {
+            "comment": "Updating dependency \"@jtechsvcs/eslint-merge-config\" from `^1.1.1` to `^1.1.2`"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.0.1",
       "tag": "@jtechsvcs/eslint-config-vue-typescript_v2.0.1",
       "date": "Mon, 06 Apr 2020 04:11:01 GMT",

@@ -1,6 +1,6 @@
 {
   "name": "@jtechsvcs/eslint-merge-config",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Eslint configuration merger utility",
   "main": "index.js",
   "repository": {
