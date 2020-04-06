@@ -11,7 +11,8 @@
   "license": "MIT",
   "files": [
     "package.json",
-    "index.js"
+    "index.js",
+    "utils"
   ],
   "publishConfig": {
     "access": "public"
