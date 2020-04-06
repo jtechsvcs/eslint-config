@@ -2,6 +2,18 @@
   "name": "@jtechsvcs/eslint-config-react",
   "entries": [
     {
+      "version": "2.0.2",
+      "tag": "@jtechsvcs/eslint-config-react_v2.0.2",
+      "date": "Mon, 06 Apr 2020 04:11:01 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update eslint-merge-config utility"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.0.1",
       "tag": "@jtechsvcs/eslint-config-react_v2.0.1",
       "date": "Wed, 15 Jan 2020 19:32:51 GMT",
