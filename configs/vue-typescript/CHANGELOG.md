@@ -1,6 +1,13 @@
 # Change Log - @jtechsvcs/eslint-config-vue-typescript
 
-This log was last generated on Mon, 06 Apr 2020 04:58:21 GMT and should not be manually modified.
+This log was last generated on Mon, 06 Apr 2020 05:02:27 GMT and should not be manually modified.
+
+## 2.0.4
+Mon, 06 Apr 2020 05:02:27 GMT
+
+### Patches
+
+- bump eslint-merge-config version
 
 ## 2.0.3
 Mon, 06 Apr 2020 04:58:21 GMT

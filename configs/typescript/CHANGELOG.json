@@ -2,6 +2,18 @@
   "name": "@jtechsvcs/eslint-config-typescript",
   "entries": [
     {
+      "version": "2.0.7",
+      "tag": "@jtechsvcs/eslint-config-typescript_v2.0.7",
+      "date": "Mon, 06 Apr 2020 05:02:27 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "bump eslint-merge-config version"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.0.6",
       "tag": "@jtechsvcs/eslint-config-typescript_v2.0.6",
       "date": "Mon, 06 Apr 2020 04:58:21 GMT",
