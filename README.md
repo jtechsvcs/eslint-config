@@ -11,43 +11,49 @@
 * Each configuration should only address one general paradigm
 * Each configuration should maintain it's own peerDependencies for plugins that are required to satisfy the configuration's requirements.
 
-## Branches
+## Configs
 
 1. standard
 
+   * Name: `@jtechsvcs/eslint-config-standard`
    * The standard javascript configuration
 
 2. typescript
 
-    * Extends the standard configuration.
-    * Includes @typescript-eslint configurations
-    * peerDependencies:
-        1. @typescript-eslint/parser
-        2. @typescript-eslint/eslint-plugin
-        3. @typescript-eslint/typescript-estree
+   * Name: `@jtechsvcs/eslint-config-typescript`
+   * Extends the standard configuration.
+   * Includes @typescript-eslint configurations
+   * peerDependencies:
+       1. @typescript-eslint/parser
+       2. @typescript-eslint/eslint-plugin
+       3. @typescript-eslint/typescript-estree
 
 3. react
 
-    * Extends Standard Configuration
-    * Includes eslint-plugin-react configurations
-    * peerDependencies:
-        1. eslint-plugin-react
+   * Name: `@jtechsvcs/eslint-config-react`
+   * Extends Standard Configuration
+   * Includes eslint-plugin-react configurations
+   * peerDependencies:
+       1. eslint-plugin-react
 
 4. react-typescript
 
-    * Extends typescript and react configurations
-    * peerDependencies:
-        1. Included from react & typescript
+   * Name: `@jtechsvcs/eslint-config-react-typescript`
+   * Extends typescript and react configurations
+   * peerDependencies:
+       1. Included from react & typescript
 
 5. vue
 
-    * Extends standard configuration
-    * Includes eslint-plugin-vue configurations
-    * peerDependencies:
-        1. eslint-plugin-vue
+   * Name: `@jtechsvcs/eslint-config-vue`
+   * Extends standard configuration
+   * Includes eslint-plugin-vue configurations
+   * peerDependencies:
+       1. eslint-plugin-vue
 
 6. vue-typescript
 
-    * Extends typescript and vue configurations
-    * peerDependencies:
-        1. Included from vue & typescript
+   * Name: `@jtechsvcs/eslint-config-vue-typescript`
+   * Extends typescript and vue configurations
+   * peerDependencies:
+       1. Included from vue & typescript
